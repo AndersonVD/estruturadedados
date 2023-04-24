@@ -11,7 +11,7 @@ public class testeHash {
         String var = tabelaHash.recuperar("9239123");
         String var1 = tabelaHash.recuperar("34242");
 
-        // System.out.println(var);
+        System.out.println(var);
         System.out.println(var1);
 
     }

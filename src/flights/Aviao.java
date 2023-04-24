@@ -1,10 +1,10 @@
 package flights;
 
-public class Aeronave {
+public class Aviao {
     private int id;
     private int combustivel;
 
-    public Aeronave(int id, int combustivel) {
+    public Aviao(int id, int combustivel) {
         this.id = id;
         this.combustivel = combustivel;
     }

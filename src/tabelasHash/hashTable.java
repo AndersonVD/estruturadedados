@@ -23,7 +23,7 @@ public class hashTable {
         array[indiceArray] = valor;
     }
 
-    public String recuperar(String chave, String valor) {
+    public String recuperar(String chave) {
         int indiceArray = hash(chave);
         return array[indiceArray];
     }
